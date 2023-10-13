@@ -1,3 +1,6 @@
+# week-1-homework
+homework for the first week of bootcamp
+
 # 01 HTML, CSS, and Git: Code Refactor
 
 ## Challenges in This Course
