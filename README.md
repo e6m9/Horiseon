@@ -5,7 +5,12 @@ For this challenge, I added alt text to every image that appeared on the mock we
 
 The index.html file in the week-1-folder contains the file with my work on it while the index.html file in the develop folder is the original unmodified file.
 
+At some point, I started moving some folders and files around but then I decided to revert it back to as close to original as I could remember. While in the terminal, I tried to move the Develop folder, which found its way into the assets folder, back into the week-1-homework folder using the mv command. I was surprised when the folder was deleted and I couldn't undo it. So I went into the RUT repo and pulled another copy out of the Challenges folder.
+
+After doing that, I found that the index.html file in the Develop folder no longer worked and I can only guess that, since it is a nested file, it cannot access the files in the Assets folder. 
+
 I tried to add alt text to the class "hero" in the css style sheet and found that doing so just removed the image. So I went back into the html file and added the alt text where the "hero" class was referenced.
+
 
 # 01 HTML, CSS, and Git: Code Refactor
 
