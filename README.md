@@ -1,5 +1,11 @@
 # week-1-homework
 homework for the first week of bootcamp
+## What I did
+For this challenge, I added alt text to every image that appeared on the mock website.
+
+The index.html file in the week-1-folder contains the file with my work on it while the index.html file in the develop folder is the original unmodified file.
+
+I tried to add alt text to the class "hero" in the css style sheet and found that doing so just removed the image. So I went back into the html file and added the alt text where the "hero" class was referenced.
 
 # 01 HTML, CSS, and Git: Code Refactor
 
