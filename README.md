@@ -6,31 +6,7 @@ The purpose of this project was to update client's website to meet accessibility
 
 ## Delete later
 
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the heading attributes
-THEN they fall in sequential order
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria plus the following code improvements:
-
-  * Application's links all function correctly.
-
-  * Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
-
-  * Application's CSS file is properly commented.
-
 ### Repository Quality: 13%
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
 
 * Repository contains quality README file with description, screenshot, and link to deployed application.
 
@@ -41,10 +17,10 @@ DONE --add alt text
 DONE --add title to title element
 DONE --adjust heading attributes to fall in sequential order
 FIXED --SEO button doesn't work
---consolidate and organize CSS selectors and properties to follow semantic structure
---add comments to CSS and html files
---adjust HTML to be more semantic
---adjust html so that the elements follow a logical structure independent of styling and positioning
+DONE --consolidate and organize CSS selectors and properties to follow semantic structure
+DONE --add comments to CSS and html files
+DONE --adjust HTML to be more semantic
+DONE? --adjust html so that the elements follow a logical structure independent of styling and positioning
 --create professional README
 
 

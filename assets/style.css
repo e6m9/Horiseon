@@ -18,12 +18,6 @@ body {
     color: #ffffff;
 }
 
-/* defines the h1 header */
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
 /* defines the color of the seo id */
 #seo {
     color: #d9dcd6;
@@ -53,8 +47,24 @@ p {
     font-size: 16px;
 }
 
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 h3 {
     font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
 }
 
 /* defines the paramaters of the splash image class */
@@ -78,73 +88,13 @@ h3 {
     margin-left: 25px;
 }
 
-/* content classes and their affiliated attribute classes are defined here. each section is organized by type*/
-.content {
+/* defines content section and establishes distinct sections to be linked to from the top menu */
+.article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.sidebar {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.sidebar-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.sidebar-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.sidebar-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.sidebar-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.sidebar-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.sidebar-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.sidebar-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.sidebar-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.sidebar-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* defines classes */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -172,33 +122,31 @@ h3 {
     color: #ffffff;
 }
 
-/* image heights are defined here */
-.search-engine-optimization img {
+.article img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
+/* defines sidebar elements and attribute */
+.sidebar {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
 }
 
-.social-media-marketing img {
-    max-height: 200px;
+.sidebar-blurb {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-/* accompanying text is defined here */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+.sidebar-blurb img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
 /* defines the footer parameters */
@@ -209,6 +157,3 @@ h3 {
     text-align: center;
 }
 
-.footer h4 {
-    font-size: 20px;
-}
