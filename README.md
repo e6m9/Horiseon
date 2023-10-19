@@ -8,5 +8,7 @@ The purpose of this project is to update client's website to meet accessibility 
 
 The right side header texts are links to articles under the splash image. Click the links to learn more about SEO, online reputation management, and social media marketing.
 
-[alt text](assets/images/screenshots/screenshot-1.png)
-[alt text](assets/images/screenshots/screenshot-2.png)
+[screenshot-1](assets/images/screenshots/screenshot-1.png)
+[screenshot-2](assets/images/screenshots/screenshot-2.png)
+
+[link-to-site](https://e6m9.github.io/Horiseon)
